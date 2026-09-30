@@ -11,6 +11,9 @@ jobs:
     timeout-minutes: 10
     runs-on: ubuntu-latest
 
+    env:
+      BASE_URL: https://parabank.parasoft.com/parabank
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
